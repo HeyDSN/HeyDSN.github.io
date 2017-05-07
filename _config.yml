@@ -1,0 +1,52 @@
+title: My Latest Post
+description: Deni Setiawan Personal Blog Powered By Jekyll
+author: Deni Setiawan
+github: https://github.com/zerosite
+about: I am freelance developer and love coffe. Currently doing more in backend, focused in PHP.
+disqus_shortname: zerosite
+google_analytics: UA-39154729-14
+avatar_url: /static/img/avatar.jpg
+
+permalink: /:title.html
+
+enableTags: true
+tagarray: []
+
+social:
+    - icon: fa-facebook
+      link: "#"
+    - icon: fa-twitter
+      link: "https://twitter.com/dsniwa"
+    - icon: fa-linkedin
+      link: "#"
+    - icon: fa-stack-exchange
+      link: "#"
+    - icon: fa-github
+      link: "https://github.com/zerosite"
+
+share:
+  twitter_username: dsniwa
+  fb_appid: 352113115188304
+
+urls:
+    - text: About Me
+      url: /about/
+    - text: XML Feed
+      url: /feed.xml
+    - text: Sitemap
+      url: /sitemap.xml
+
+url: "https://zerosite.github.io"
+baseurl: ""
+paginate: 16
+per_page: 16
+paginate_path: "/page/:num/"
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
