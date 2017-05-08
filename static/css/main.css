@@ -2,8 +2,7 @@
 @import url("custom.css");
 body {
   font-family: "Roboto Condensed", Arial, sans-serif;
-  background: url("/static/img/sand_stone.jpg");
-  background-attachment: fixed;
+  background-color: #fff
   line-height: 1.5em;
   font-weight: 300;
   font-size: 16px;
@@ -85,21 +84,22 @@ footer {
 }
 
 /* Left column */
-div.col-sm-3 {
-  margin-top: 30px;
+.sidebar {
+  padding: 20px;
   font-size: 13px;
-  color: #666;
+  color: #fff;
+  background-color: #202020;
 }
-div.col-sm-3 strong {
+.sidebar strong {
   font-size: 16px;
-  color: #4A4A4A;
+  color: #fff;
   font-weight: normal;
 }
-div.col-sm-3 div.profile-about {
+div.sidebar div.profile-about {
   margin-top: 10px;
-  color: #000;
+  color: rgba(255,255,255,0.5);
 }
-div.col-sm-3 img.profile-avatar {
+div.sidebar img.profile-avatar {
   border-radius: 150px;
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
@@ -167,11 +167,17 @@ div.col-sm-3 img.profile-avatar {
 @media (min-width: 1024px) {
   .fixed-condition {
     position: fixed;
-    max-width: 255px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    max-width: 36rem;
+    padding: 40px;
   }
 }
+/*
 @media (max-width: 768px) {
   div.col-sm-3 {
     margin-top: 30px;
   }
 }
+*/
