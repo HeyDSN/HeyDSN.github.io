@@ -6,6 +6,8 @@ html, body {
 	min-height: 100%;
     background-color: #fff;
     width: auto !important;
+    margin: 0;
+    padding: 10px 5px;
 }
 
 /* Responsive Conditional */
@@ -15,7 +17,31 @@ html, body {
     padding-left: 60px;
     padding-right: 60px;
     padding-top: 30px;
-    padding-bottom: 10px;
+  }
+}
+
+/* Responsive Conditional */
+@media (max-width: 1024px) {
+  .small{
+    display:block;
+  }
+  .large{
+    display:none;
+  }
+}
+
+/* Responsive Conditional */
+@media (min-width: 1024px) {
+  .large{
+    display:block;
+    background-color: #202020;
+    position: fixed;
+    top: 10px;
+    left: 42rem;
+    right: 60px;
+  }
+  .small{
+    display:none;
   }
 }
 
@@ -27,8 +53,8 @@ html, body {
 }
 
 .profile-avatar{
-  display: block;
-  margin: auto;
+	display: block;
+	margin: auto;
 }
 
 .author-name{

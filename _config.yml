@@ -13,16 +13,22 @@ enableTags: true
 tagarray: []
 
 social:
+    - icon: fa-github
+      link: "https://github.com/zerosite"
     - icon: fa-facebook
       link: "#"
     - icon: fa-twitter
       link: "https://twitter.com/dsniwa"
+    - icon: fa-google-plus
+      link: "https://plus.google.com/+DeniSetiawanDS"
+    - icon: fa-instagram
+      link: "https://instagram.com/dsniwa"
     - icon: fa-linkedin
       link: "#"
     - icon: fa-stack-exchange
       link: "#"
-    - icon: fa-github
-      link: "https://github.com/zerosite"
+    - icon: fa-rss
+      link: "/feed.xml"
 
 share:
   twitter_username: dsniwa
@@ -31,10 +37,12 @@ share:
 urls:
     - text: About Me
       url: /about/
-    - text: XML Feed
-      url: /feed.xml
-    - text: Sitemap
-      url: /sitemap.xml
+    - text: Posts Category
+      url: /category/
+    #- text: XML Feed
+    #  url: /feed.xml
+    #- text: Sitemap
+    #  url: /sitemap.xml
 
 url: "https://zerosite.github.io"
 baseurl: ""

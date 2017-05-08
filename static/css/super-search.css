@@ -16,6 +16,7 @@ input#js-search__input {
   overflow-x: hidden;
   height: calc(100% - 110px);
   transition: 0.2s ease;
+  margin-bottom: 0px;
 }
 .search__results.is-hidden {
   opacity: 0;
@@ -31,8 +32,7 @@ input#js-search__input {
 }
 .search__result-date {
   color: #BBB;
-  position: absolute;
-  right: 12px;
+  float:right;
 }
 .search.is-active {
   opacity: 1;

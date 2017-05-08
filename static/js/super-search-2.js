@@ -5,9 +5,10 @@
 
 (function () {
     var isSearchOpen = false,
+        x = document.getElementById('large'),
         searchEl = document.querySelector('#js-search'),
         searchInputEl = document.querySelector('#js-search__input'),
-        searchResultsEl = document.querySelector('#js-search__results'),
+        searchResultsEl = document.querySelector('#js-search__results__large'),
         currentInputValue = '',
         lastSearchResultHash,
         posts = [];
@@ -79,9 +80,11 @@
         if (searchEl.classList.contains('is-active')) {
             // while opening
             searchInputEl.value = '';
+            x.style.display = 'block';
         } else {
             // while closing
             searchResultsEl.classList.add('is-hidden');
+            x.style.display = 'none';
         }
         setTimeout(function () {
             searchInputEl.focus();

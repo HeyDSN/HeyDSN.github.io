@@ -101,47 +101,48 @@ layout: compress
   </head>
   <body>
       <div class="sidebar fixed-condition ">
-          <a href="/"><img class="profile-avatar" src="{{ site.avatar_url }}" height="75px" width="75px" /></a>
-          <a href="/"><h1 class="author-name">{{ site.author }}</h1></a>
-          <hr/>
-          {% if site.about %}
-            <div class="profile-about">
-              {{ site.about }}
-            </div>
-          {% endif %}
-          <div class="social">
-            <ul><li>Follow Me:</li></ul>
-            <ul>
-              {% for link in site.social %}
-                <li><a href="{{ link.link }}" target="_blank"><i class="fa {{ link.icon }}"></i></a></li>
-              {% endfor %}
-            </ul>
+        <a href="/"><img class="profile-avatar" src="{{ site.avatar_url }}" height="75px" width="75px" /></a>
+        <a href="/"><h1 class="author-name">{{ site.author }}</h1></a>
+        <hr/>
+        {% if site.about %}
+          <div class="profile-about">
+            {{ site.about }}
           </div>
-          <div class="search" id="js-search">
-            <input type="text" placeholder="(sitemap)~$ type to search" class="search__input form-control" id="js-search__input">
-            <ul class="search__results" id="js-search__results"></ul>
-          </div>
-          <hr />
-          <ul class="sidebar-nav">
-            <strong>Navigation</strong>
-            <li><a href="/">Home</a></li>
-            {% for i in site.urls %}
-              <li><a class="about" href="{{ i.url }}">{{ i.text }}</a></li>
+        {% endif %}
+        <div class="social">
+          <ul><li>Follow Me:</li></ul>
+          <ul>
+            {% for link in site.social %}
+              <li><a href="{{ link.link }}" target="_blank"><i class="fa {{ link.icon }}"></i></a></li>
             {% endfor %}
           </ul>
+        </div>
+        <div class="search" id="js-search">
+          <input type="text" placeholder="(sitemap)~$ type to search" class="search__input form-control" id="js-search__input">
+          <div class="small">
+            <ul class="search__results" id="js-search__results__small"></ul>
+          </div>
+        </div>
+        <hr />
+        <ul class="sidebar-nav">
+          <strong>Navigation</strong>
+          <li><a href="/">Home</a></li>
+          {% for i in site.urls %}
+            <li><a class="about" href="{{ i.url }}">{{ i.text }}</a></li>
+          {% endfor %}
+        </ul>
       </div>
       <!-- end sidebar -->
       <div class="container">
+        <div class="large" id="large">
+          <ul class="search__results" id="js-search__results__large"></ul>
+        </div>
         {{ content }}
         <footer>
-          &copy; {{ site.author }}
-          {% if site.github %}
-            - <a href="{{ site.github }}">{{ site.github }}</a> - Powered by Jekyll.
-          {% endif %}
-          <div class="btn-github" style="float:right;">
-            <iframe src="https://ghbtns.com/github-btn.html?user=zerosite&repo=zerosite.github.io&type=star&count=true" frameborder="0" scrolling="0" width="85" height="20px"></iframe>
-            <iframe src="https://ghbtns.com/github-btn.html?user=zerosite&repo=zerosite.github.io&type=fork&count=true" frameborder="0" scrolling="0" width="85" height="20px"></iframe>
-          </div>
+        &copy; 2017 {{ site.title }}
+        {% if site.github %}
+          - <a href="{{ site.github }}">{{ site.github }}</a> | Built with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> | Hosted on <a href="https://github.com/" target="_blank">GitHub</a>
+        {% endif %}
         </footer>
       </div>
       <!-- end container -->
@@ -151,7 +152,8 @@ layout: compress
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="/static/js/bootstrap.min.js"></script>
-    <script src="/static/js/super-search.js"></script>
+    <script src="/static/js/super-search-1.js"></script>
+    <script src="/static/js/super-search-2.js"></script>
     <script src="/static/js/thickbox-compressed.js"></script>
     <script src="/static/js/projects.js"></script>
     <!-- Google Analytics -->

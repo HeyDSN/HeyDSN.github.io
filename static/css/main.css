@@ -2,7 +2,7 @@
 @import url("custom.css");
 body {
   font-family: "Roboto Condensed", Arial, sans-serif;
-  background-color: #fff
+  background-color: #fff;
   line-height: 1.5em;
   font-weight: 300;
   font-size: 16px;
@@ -71,20 +71,19 @@ div.content .highlight {
 	background: #333333;
 }
 footer {
+  text-align: center;
   border-top: 1px solid #F7F1F1;
   width: 100%;
-  height: 10px;
   margin-top: 10px;
-  margin-bottom: 3em;
   padding-top: 10px;
   color: #000;
-  font-size: 11px;
-  bottom: 0;
-  padding-bottom: 10px;
+  font-size: 14px;
+  font-weight: 300;
 }
 
 /* Left column */
 .sidebar {
+  text-align: center;
   padding: 20px;
   font-size: 13px;
   color: #fff;
@@ -166,6 +165,7 @@ div.sidebar img.profile-avatar {
 /* Responsive Conditional */
 @media (min-width: 1024px) {
   .fixed-condition {
+    text-align: left;
     position: fixed;
     top: 0;
     left: 0;
