@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-I am freelance developer. Currently doing more in backend, focused in Python and Django.
+Hello, my name is Deni Setiawan, I am currently studying at a university in Indonesia majoring in Information Systems. Want to know more about me, let's be friend!
 
-email: agus[at]python.web.id
+email: deni[at]kopiadem.com

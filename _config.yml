@@ -45,6 +45,7 @@ markdown: kramdown
 gems:
   - jekyll-paginate
   - jekyll-gist
+  - jemoji
 
 compress_html:
   clippings: all
