@@ -1,9 +1,12 @@
 Whoops, you found my blog!
 
-> This project forked and has been modified from [A simple grey theme for Jekyll](https://github.com/liamsymonds/simplygrey-jekyll),
-> and the search posts using [Super Search](https://github.com/chinchang/super-search)
+> This project forked and has been modified from [My Stack Problems](https://github.com/agusmakmun/agusmakmun.github.io)
 
 Now I'm using it for personal blog :)
+
+You can view the blog live at:
+
+https://zerosite.github.io/
 
 **a. Add new Categories**
 
