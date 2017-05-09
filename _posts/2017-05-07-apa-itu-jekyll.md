@@ -42,7 +42,7 @@ Kelebihan Jekyll:
 5. Fleksibilitas<br/>
 	Karena jekyll menggunakan file statis dan tidak menggunakan database menjadikannya tidak hanya lebih ramah resource tetapi juga lebih mudah untuk melakukan banyak kostumisasi yang tidak mungkin dilakukan pada blogger, misalnya menggunakan tema yang berbeda pada suatu halaman yang tidak mungkin dapat dilakukan pada blogger.
 	
-	Sebagai contoh, saya ingin menuliskan sebuah _resume_ online menggunakan alamat khusus `https://zerosite.github.io/my-resume` dan ingin menggunakan tampilan khusus saya cukup membuat sebuah file HTML baru dengan CSS dan selesai, hal yang tidak mungkin untuk dilakukan pada blogger.
+	Sebagai contoh, saya ingin menuliskan sebuah _resume_ online menggunakan alamat khusus, misalnya `https://zerosite.github.io/my-resume` dan ingin menggunakan tampilan khusus saya cukup membuat sebuah file HTML baru dengan CSS dan selesai, hal yang tidak mungkin untuk dilakukan pada blogger.
 
 ### Selain kelebihan jekyll di atas, ada juga beberapa kekurangan yang dimiliki jekyll.
 

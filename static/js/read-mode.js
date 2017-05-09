@@ -12,10 +12,16 @@ $(".read-button").click(function() {
         $divSide.hide('slow');
         $divDisqus.hide();
         document.body.style.backgroundColor = '#ddd';
+        $('h1').css({ 'color': '#000' });
+        $('h2').css({ 'color': '#000' });
+        $('h3').css({'color' : '#000'});
     } else {
         $divSide.show('slow');
         $divDisqus.show();
         document.body.style.backgroundColor = '#fff';
+        $('h1').css({ 'color': '#696969' });
+        $('h2').css({ 'color': '#696969' });
+        $('h3').css({'color' : '#696969'});
     }
 });
 
