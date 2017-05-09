@@ -46,10 +46,10 @@ html, body {
 }
 
 .post{
-	font-family: "Roboto Condensed", Arial, sans-serif;
-	line-height: 1.5em;
-    font-weight: 300;
-    font-size: 20px;
+  font-family: "Roboto Condensed", Arial, sans-serif;
+  line-height: 1.5em;
+  font-weight: 300;
+  font-size: 20px;
 }
 
 .profile-avatar{
@@ -60,4 +60,27 @@ html, body {
 .author-name{
 	text-align: center;
 	color: #ddd;
+}
+
+.read-mode{
+  padding: 100px !important;
+  margin: 6% 20% !important;
+  box-shadow: 10px 10px 10px #888;
+}
+
+.flright{
+  float: right;
+  margin: 10px;
+}
+
+.borderbtn {
+  border: 0;
+  background: none;
+  box-shadow:none;
+  border-radius: 0px;
+  text-decoration: none !important;
+}
+
+.x-margin{
+  margin-top: -30px;
 }
