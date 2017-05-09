@@ -70,10 +70,6 @@ html, body {
   box-shadow: 10px 10px 10px #888;
 }
 
-.read-mode .container>.content>.post h2, h3{
-  color: #000;
-}
-
 .flright{
   float: right;
   margin: 10px;
