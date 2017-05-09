@@ -1,5 +1,6 @@
 /* Custom CSS ================================== */
 @import url("custom.css");
+@import url("to-top.css");
 body {
   font-family: "Roboto Condensed", Arial, sans-serif;
   background-color: #fff;

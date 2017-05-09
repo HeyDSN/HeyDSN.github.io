@@ -14,7 +14,7 @@ $(".read-button").click(function() {
         document.body.style.backgroundColor = '#ddd';
     } else {
         $divSide.show('slow');
-        $divDisqus.hide();
+        $divDisqus.show();
         document.body.style.backgroundColor = '#fff';
     }
 });
