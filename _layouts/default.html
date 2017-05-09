@@ -100,7 +100,8 @@ layout: compress
     <link rel="stylesheet" href="/static/css/main.css">
   </head>
   <body>
-      <div class="sidebar fixed-condition ">
+    <div class="sidebar fixed-condition ">
+      <div class="inside">
         <a href="/"><img class="profile-avatar" src="{{ site.avatar_url }}" height="75px" width="75px" /></a>
         <a href="/"><h1 class="author-name">{{ site.author }}</h1></a>
         <hr/>
@@ -132,20 +133,21 @@ layout: compress
           {% endfor %}
         </ul>
       </div>
-      <!-- end sidebar -->
-      <div class="container">
-        <div class="large" id="large">
-          <ul class="search__results" id="js-search__results__large"></ul>
-        </div>
-        {{ content }}
-        <footer>
-        &copy; 2017 {{ site.title }}
-        {% if site.github %}
-          - <a href="{{ site.github }}">{{ site.github }}</a> | Built with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> | Hosted on <a href="https://github.com/" target="_blank">GitHub</a>
-        {% endif %}
-        </footer>
+    </div>
+    <!-- end sidebar -->
+    <div class="container">
+      <div class="large" id="large">
+        <ul class="search__results" id="js-search__results__large"></ul>
       </div>
-      <!-- end container -->
+      {{ content }}
+      <footer>
+      &copy; 2017 {{ site.title }}
+      {% if site.github %}
+        - <a href="{{ site.github }}">{{ site.github }}</a> | Built with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> | Hosted on <a href="https://github.com/" target="_blank">GitHub</a>
+      {% endif %}
+      </footer>
+    </div>
+    <!-- end container -->
 
     <!-- Bootstrap core JavaScript -->
     <!-- Placed at the end of the document so the pages load faster -->

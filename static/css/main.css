@@ -41,9 +41,9 @@ a:hover {
 }
 
 /* Layout */
-.main-layout {
+/*.main-layout {
   background: rgba(255, 255, 255, 0);
-}
+}*/
 .sidebar-nav {
   margin: 0;
   padding: 0;
@@ -89,6 +89,7 @@ footer {
   color: #fff;
   background-color: #202020;
 }
+
 .sidebar strong {
   font-size: 16px;
   color: #fff;
@@ -170,9 +171,18 @@ div.sidebar img.profile-avatar {
     top: 0;
     left: 0;
     bottom: 0;
-    max-width: 36rem;
+    height: 100%;
+    width: 36rem;
     padding: 40px;
+    overflow-y:auto; 
+    overflow-x:hidden; 
   }
+}
+
+.inside{          
+  width:100%;
+  overflow:visible;
+  box-sizing:border-box;
 }
 /*
 @media (max-width: 768px) {
