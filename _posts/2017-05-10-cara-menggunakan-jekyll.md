@@ -3,6 +3,8 @@ layout: post
 title:  "Cara Menggunakan Jekyll"
 date:   2017-05-10 16:47:43 +0700
 categories: [blogging, tutorial, jekyll]
+image: jekyll-now.png
+description: Sebuah tutorial singkat cara menggunakan jekyll mulai dari cara installasi, membuat akun github, hingga membuat blog jekyll pada github page dengan cara yang mudah.
 ---
 
 Singkat saja, postingan ini akan memberikan sedikit tutorial singkat cara menggunakan jekyll mulai dari installasi sampai menggunakannya.

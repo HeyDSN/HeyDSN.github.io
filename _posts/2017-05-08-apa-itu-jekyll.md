@@ -3,6 +3,7 @@ layout: post
 title:  "Jekyll"
 date:   2017-05-08 21:54:00 +0700
 categories: [blogging, jekyll]
+image: file-by-file.png
 ---
 
 Apa itu jekyll, kenapa jekyll? Apa kelebihannya dibanding blogger? :grimacing:
