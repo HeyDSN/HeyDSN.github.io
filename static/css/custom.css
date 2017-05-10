@@ -62,12 +62,29 @@ html, body {
 	color: #ddd;
 }
 
-.read-mode{
-  color: #000;
-  text-align: justify !important;
-  padding: 100px !important;
-  margin: 6% 20% !important;
-  box-shadow: 10px 10px 10px #888;
+@media (min-width: 1024px) {
+  .read-mode{
+    color: #000;
+    text-align: justify !important;
+    padding: 100px !important;
+    margin: 6% auto !important;
+    box-shadow: 10px 10px 10px #888;
+    width: 770px !important;
+  }
+
+  .hide-el{
+    display: none !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .btnGroup{
+    display: none !important;
+  }
+
+  h1, h2, h3 {
+    color: #696969 !important;
+  }
 }
 
 .flright{
