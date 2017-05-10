@@ -2,7 +2,7 @@
 layout: post
 title:  "Jekyll"
 date:   2017-05-08 21:54:00 +0700
-categories: [blogging, tutorial, jekyll]
+categories: [blogging, jekyll]
 ---
 
 Apa itu jekyll, kenapa jekyll? Apa kelebihannya dibanding blogger? :grimacing:
@@ -51,7 +51,7 @@ Selain banyak kelebihan yang dimiliki oleh jekyl, terdapat juga beberapa kekuran
 1. Template sedikit - Berbeda dengan blogger yang memiliki ratusan bahkan ribuan template siap pakai yang tersebar di internet, jekyll memiliki sedikit varian template yang tersedia, jadi jika ingin menggunakan jekyll bersiap untuk terlihat memiliki template yang mirip dengan blog jekyll lainnya, kecuali Anda sudah siap untuk menggali style CSS bawaan dari jekyll untuk dimodifikasi.
 2. Perlu belajar hal baru - Untuk menggunakan jekyll kita harus mengerti menggunakan GitHub dan GitHub Page. Mungkin ini tidak sepenuhnya kekurangan karena ini bisa juga sekalian belajar tentang GitHub karena sangat berguna pada dunia programming dalam team, dan juga GitHub memiliki aplikasi desktop yang sangat mudah untuk digunakan.
 3. Tidak ada dashboard - Pada blogger mungkin Anda terbiasa membuat posting menggunakan tools yang disediakan secara online dalam dashboard blogger. Dengan menggunakan jekyll, berarti Anda harus membuat file posting secara manual file demi file.
-![File by file](/static/img/posts/2017-08/file-by-file.png "File by File")
+![File by file](/static/img/posts/2017-05/file-by-file.png "File by File")
 
 ### Kesimpulan
 

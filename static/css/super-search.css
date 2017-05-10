@@ -29,6 +29,7 @@ input#js-search__input {
 .search__results > li > a {
   display: block;
   padding: 10px;
+  text-align: left;
 }
 .search__result-date {
   color: #BBB;
