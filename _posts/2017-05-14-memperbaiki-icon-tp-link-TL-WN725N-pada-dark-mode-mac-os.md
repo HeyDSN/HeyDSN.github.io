@@ -20,7 +20,7 @@ Di dalamnya terdapat dua buah "StatusBarApp.app" dengan perbedaan ukuran yang sa
 
 ![TL-WN725N Ukuran](/static/img/posts/2017-05/ukuran-tplink.png "TL-WN725N Ukuran")
 
-Karena saya penasaran saya coba ekstrak kedua file tersebut dan saya bandingkan ukurannya dengan file yang ada pada "/Library/Application Support/WLAN/" dan saya coba untuk replace file yang ada dengan salah satu file yang saya dapatkan dari Installer.pkg tapi file yang ukurannya berbeda lalu saya hentikan aplikasi yang sedang berjalan dengan terminal "sudo killall -c StatusBarApp" cabut device lalu saya coba jalakan file yang baru saja saya copy dan ubah tema gelap lalu colok device kembali, dan berhasil warna icon sinyal tidak gelap seperti sebelumnya.
+Karena saya penasaran saya coba ekstrak kedua file tersebut dan saya bandingkan ukurannya dengan file yang ada pada "/Library/Application Support/WLAN/" dan saya coba untuk replace file yang ada dengan salah satu file yang saya dapatkan dari Installer.pkg tapi file yang ukurannya berbeda lalu saya hentikan aplikasi yang sedang berjalan dengan terminal `"sudo killall -c StatusBarApp"` cabut device lalu saya coba jalakan file yang baru saja saya copy dan ubah tema gelap lalu colok device kembali, dan berhasil warna icon sinyal tidak gelap seperti sebelumnya.
 
 ![TL-WN725N Dark](/static/img/posts/2017-05/new.png "TL-WN725N Dark")
 
