@@ -26,6 +26,6 @@ Karena saya penasaran saya coba ekstrak kedua file tersebut dan saya bandingkan 
 
 ![TL-WN725N Dark](/static/img/posts/2017-05/new-expand.png "TL-WN725N Dark")
 
-Jika Anda tidak mempunyai file installasi atau malas untuk mencarinya silakan [download file ini](https://www.dropbox.com/s/slu0df82zgco7vo/Fix%20Dark%20Status%20Bar%20TL-WN725N.zip?dl=0) dan copy ke dalam folder "/Library/Application Support/WLAN/" dan gantikan file yang sudah ada.
+Jika Anda tidak mempunyai file installasi atau malas untuk mencarinya silakan [download file ini](http://bit.ly/2pKF5Tp) dan copy ke dalam folder "/Library/Application Support/WLAN/" dan gantikan file yang sudah ada.
 
 ***Baru di test pada El Capitan saja, jika Anda berhasil dengan cara yang sama pada versi OS X lainnya, misal Yosemite atau Sierra silahkan tinggalkan komentar Anda untuk memberitahukan yang lainnya :)
