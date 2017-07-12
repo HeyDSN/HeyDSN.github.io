@@ -16,7 +16,7 @@ Karena saya masih penasaran, akhirnya saya mecoba membongkar file installasi dri
 
 ![TL-WN725N Dark](/static/img/posts/2017-05/driver-tplink.png "TL-WN725N Dark")
 
-Di dalamnya terdapat dua buah "StatusBarApp.app" dengan perbedaan ukuran yang sangat kecil yaitu 1 MB satu file berukuran.
+Di dalamnya terdapat dua buah "StatusBarApp.app" dengan perbedaan ukuran yang sangat kecil yaitu 0.1 MB satu file berukuran.
 
 ![TL-WN725N Ukuran](/static/img/posts/2017-05/ukuran-tplink.png "TL-WN725N Ukuran")
 
