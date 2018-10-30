@@ -6,7 +6,7 @@ Now I'm using it for personal blog :)
 
 You can view the blog live at:
 
-https://zerosite.github.io/
+https://HeyDSN.github.io/
 
 **a. Add new Categories**
 
