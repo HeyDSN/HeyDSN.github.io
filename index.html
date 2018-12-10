@@ -6,40 +6,57 @@ layout: default
   <h1>{{ site.title }}</h1>
   <hr />
 
-  <ol class="posts">
     {% for post in paginator.posts %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a> &raquo; <i><span>{{ post.date | date_to_string }}</span></i></li>
+      <header class="post-header">
+        <h1 class="post-title"><a href="{{ post.url }}" class="index-h1">{{ post.title }}</a></h1>
+      </header>
+
+      <span class="time">{{ post.date | date_to_string }}</span>
+      {% if post.categories %}
+        <span class="categories">
+          &raquo; {% for category in post.categories %}<a href="/category/{{ category }}">{{ category }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %}
+        </span>
+      {% endif %}
+
+      <div class="post">{{ post.content }}</div>
+
+      {% if forloop.last == false %}
+        <hr class="post-divider">
+      {% endif %}
+
     {% endfor %}
-  </ol>
+  
 
   <!-- Pagination links -->
   {% if paginator.total_pages > 1 %}
-    <ul class="pagination pagination-sm">
-      {% if paginator.previous_page %}
-        <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a></li>
-      {% else %}
-        <li class="disabled"><span aria-hidden="true">&laquo;</span></li>
-      {% endif %}
-
-      <li><a href="/">First</a></li>
-
-      {% for page in (1..paginator.total_pages) %}
-        {% if page == paginator.page %}
-          <li class="active"><a>{{ page }}<span class="sr-only">(current)</span></a></li>
-        {% elsif page == 1 %}
-          <li><a href="/">{{ page }}</a></li>
+    <div class="text-center">
+      <ul class="pagination pagination-lg">
+        {% if paginator.previous_page %}
+          <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a></li>
         {% else %}
-          <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+          <li class="disabled"><span aria-hidden="true">&laquo;</span></li>
         {% endif %}
-      {% endfor %}
 
-      <li><a href="/page/{{ paginator.total_pages }}/">Last</a></li>
+        <li><a href="/">First</a></li>
 
-      {% if paginator.next_page %}
-        <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a></li>
-      {% else %}
-        <li class="disabled"><span>&raquo;</span></li>
-      {% endif %}
-    </ul>
+        {% for page in (1..paginator.total_pages) %}
+          {% if page == paginator.page %}
+            <li class="active"><a>{{ page }}<span class="sr-only">(current)</span></a></li>
+          {% elsif page == 1 %}
+            <li><a href="/">{{ page }}</a></li>
+          {% else %}
+            <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+          {% endif %}
+        {% endfor %}
+
+        <li><a href="/page/{{ paginator.total_pages }}/">Last</a></li>
+
+        {% if paginator.next_page %}
+          <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a></li>
+        {% else %}
+          <li class="disabled"><span>&raquo;</span></li>
+        {% endif %}
+      </ul>
+    </div>
   {% endif %}
 </div><!-- end #home -->
