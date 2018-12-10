@@ -50,7 +50,7 @@ paginate: 16
 per_page: 16
 paginate_path: "/page/:num/"
 markdown: kramdown
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-gist
   - jemoji
