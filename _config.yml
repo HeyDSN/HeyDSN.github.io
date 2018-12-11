@@ -37,6 +37,8 @@ urls:
     #  url: /about/
     - text: Posts Category
       url: /category/
+    - text: CV
+      url: /cv/
     #- text: XML Feed
     #  url: /feed.xml
     #- text: Sitemap
