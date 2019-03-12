@@ -162,7 +162,8 @@ div.sidebar img.profile-avatar {
   border-bottom: 1px solid #f0f0f0;
 }
 .post-content img,
-.content img {
+.content img,
+.home img {
   max-width: 100%
 }
 
