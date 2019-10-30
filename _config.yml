@@ -5,9 +5,9 @@ github: https://github.com/HeyDSN
 about: Experienced Web Developer, Currently Focusing In Node.js. Skilled in Linux System Administration, Technical Support, and Back End Web Development.
 disqus_shortname: zerosite
 google_analytics: UA-39154729-14
-avatar_url: /static/img/avatar.jpg
+avatar_url: /blog/static/img/avatar.jpg
 
-permalink: /:title.html
+permalink: /blog/:title.html
 
 enableTags: true
 tagarray: []
@@ -36,19 +36,19 @@ urls:
     #- text: About Me
     #  url: /about/
     - text: Posts Category
-      url: /category/
+      url: /blog/category/
     - text: CV
-      url: /cv.html
+      url: /blog/cv.html
     #- text: XML Feed
     #  url: /feed.xml
     #- text: Sitemap
     #  url: /sitemap.xml
 
-url: "https://deni-setiawan.me"
+url: "https://dsn.web.id/blog/"
 baseurl: ""
 paginate: 3
 per_page: 1
-paginate_path: "/page/:num/"
+paginate_path: "/blog/page/:num/"
 markdown: kramdown
 plugins:
   - jekyll-paginate
