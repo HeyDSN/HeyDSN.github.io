@@ -5,9 +5,9 @@ github: https://github.com/HeyDSN
 about: Experienced Web Developer, Currently Focusing In Node.js. Skilled in Linux System Administration, Technical Support, and Back End Web Development.
 disqus_shortname: zerosite
 google_analytics: UA-39154729-14
-avatar_url: /blog/static/img/avatar.jpg
+avatar_url: /static/img/avatar.jpg
 
-permalink: /blog/:title.html
+permalink: /:title.html
 
 enableTags: true
 tagarray: []
@@ -20,7 +20,7 @@ social:
     - icon: fa-facebook
       link: "https://fb.me/HeyDSN"
     - icon: fa-twitter
-      link: "https://twitter.com/HeyDeniSetiawan"
+      link: "https://twitter.com/sukaekstrashot"
     - icon: fa-instagram
       link: "https://www.instagram.com/heydenisetiawan/"
     - icon: fa-linkedin
@@ -36,19 +36,19 @@ urls:
     #- text: About Me
     #  url: /about/
     - text: Posts Category
-      url: /blog/category/
+      url: /category/
     - text: CV
-      url: /blog/cv.html
+      url: /cv.html
     #- text: XML Feed
     #  url: /feed.xml
     #- text: Sitemap
     #  url: /sitemap.xml
 
-url: "https://dsn.web.id/blog/"
-baseurl: ""
+url: "https://dsn.web.id/"
+baseurl: "blog"
 paginate: 3
 per_page: 1
-paginate_path: "/blog/page/:num/"
+paginate_path: "/page/:num/"
 markdown: kramdown
 plugins:
   - jekyll-paginate
