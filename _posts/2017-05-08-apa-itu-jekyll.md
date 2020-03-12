@@ -6,7 +6,7 @@ categories: [blogging, jekyll]
 image: file-by-file.png
 ---
 
-Apa itu jekyll????, kenapa jekyll? Apa kelebihannya dibanding blogger? :grimacing:
+Apa itu jekyll?, kenapa jekyll? Apa kelebihannya dibanding blogger? :grimacing:
 
 Sudah bertahun-tahun yang lalu sejak saya pertama kali memulai dunia blogging, berawal dari tugas masa SMP yang awalnya hanya 2 buah artikel sampai mengenal dasar-dasar sintaks _HTML,CSS, dan JavaScript_.
 
